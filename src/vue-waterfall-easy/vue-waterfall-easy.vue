@@ -214,7 +214,8 @@ export default {
   data() {
     return {
       msg: 'this is from vue-waterfall-easy.vue',
-      isMobile: !!navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i), // 初始化移动端
+      isMobile: false,
+      //isMobile: !!navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i), // 初始化移动端
       isPreloading: true, // 正在预加载中，显示加载动画
       isPreloading_c: true,
       imgsArr_c: [], // 待图片预加载imgsArr完成，插入新的字段height之后,才会生成imgsArr_c，这时才开始渲染
