@@ -213,7 +213,7 @@ export default {
   },
   data() {
     return {
-      msg: 'this is from vue-waterfall-easy.vue',
+      msg: 'this is from vue-waterfall-easy1.vue',
       isMobile: false,
       //isMobile: !!navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i), // 初始化移动端
       isPreloading: true, // 正在预加载中，显示加载动画
